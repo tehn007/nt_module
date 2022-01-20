@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<hiblock>
+	<hiblock>
+		<id>4</id>
+		<name>Like</name>
+		<table_name>like</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>4</id>
+			<lid>ru</lid>
+			<name>Лайк</name>
+		</lang>
+		<lang>
+			<id>4</id>
+			<lid>en</lid>
+			<name>Like</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>51</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_LIKE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_LIKED</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>52</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_GUID</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_GUID</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>53</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_ID</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id>UF_ID</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru />
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>11</id>
+			<uf_like>1</uf_like>
+			<uf_guid />
+			<uf_id>1067</uf_id>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_like>1</uf_like>
+			<uf_guid />
+			<uf_id>1061</uf_id>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_like>1</uf_like>
+			<uf_guid />
+			<uf_id>1062</uf_id>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_like>1</uf_like>
+			<uf_guid />
+			<uf_id>1062</uf_id>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_like>0</uf_like>
+			<uf_guid />
+			<uf_id>1063</uf_id>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_like>1</uf_like>
+			<uf_guid />
+			<uf_id>1062</uf_id>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1076</uf_id>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1071</uf_id>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1071</uf_id>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1074</uf_id>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1071</uf_id>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_like>0</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1071</uf_id>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1072</uf_id>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_like>0</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1065</uf_id>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1066</uf_id>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1061</uf_id>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1062</uf_id>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_like>1</uf_like>
+			<uf_guid>192.168.1.5</uf_guid>
+			<uf_id>1151</uf_id>
+		</item>
+	</items>
+</hiblock>

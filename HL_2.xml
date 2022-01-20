@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<hiblock>
+	<hiblock>
+		<id>6</id>
+		<name>Likenewstag</name>
+		<table_name>b_hlbd_likenewstag</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>6</id>
+			<lid>ru</lid>
+			<name>Лайк</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>58</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>200</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>59</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_SORT</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>300</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<ru>Сортировка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Сортировка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Сортировка</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>60</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_XML_ID</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>400</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Внешний код</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Внешний код</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Внешний код</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>61</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_LINK</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>500</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Ссылка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Ссылка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Ссылка</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>62</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>600</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Описание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Описание</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Описание</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>63</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_FULL_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>700</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Полное описание</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Полное описание</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Полное описание</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>64</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_DEF</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>800</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<ru>По умолчанию</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>По умолчанию</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>По умолчанию</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>65</id>
+			<entity_id>HLBLOCK_6</entity_id>
+			<field_name>UF_FILE</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id />
+			<sort>900</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>0</list_width>
+				<list_height>0</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+				<target_blank>Y</target_blank>
+			</settings>
+			<edit_form_label>
+				<ru>Изображение</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Изображение</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Изображение</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>news</uf_name>
+			<uf_sort>100</uf_sort>
+			<uf_xml_id>likenews</uf_xml_id>
+			<uf_link />
+			<uf_description>test</uf_description>
+			<uf_full_description>Test</uf_full_description>
+			<uf_def>0</uf_def>
+			<uf_file />
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>test2</uf_name>
+			<uf_sort />
+			<uf_xml_id>test2</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def>0</uf_def>
+			<uf_file>0</uf_file>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Бывший СССР</uf_name>
+			<uf_sort />
+			<uf_xml_id>Бывший СССР</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Наука и техника</uf_name>
+			<uf_sort />
+			<uf_xml_id>Наука и техника</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Среда обитания</uf_name>
+			<uf_sort />
+			<uf_xml_id>Среда обитания</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Силовые структуры</uf_name>
+			<uf_sort />
+			<uf_xml_id>Силовые структуры</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Ценности</uf_name>
+			<uf_sort />
+			<uf_xml_id>Ценности</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Россия</uf_name>
+			<uf_sort />
+			<uf_xml_id>Россия</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Мир</uf_name>
+			<uf_sort />
+			<uf_xml_id>Мир</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Путешествия</uf_name>
+			<uf_sort />
+			<uf_xml_id>Путешествия</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Культура</uf_name>
+			<uf_sort />
+			<uf_xml_id>Культура</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Экономика</uf_name>
+			<uf_sort />
+			<uf_xml_id>Экономика</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Спорт</uf_name>
+			<uf_sort />
+			<uf_xml_id>Спорт</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Из жизни</uf_name>
+			<uf_sort />
+			<uf_xml_id>Из жизни</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>Интернет и СМИ</uf_name>
+			<uf_sort />
+			<uf_xml_id>Интернет и СМИ</uf_xml_id>
+			<uf_link />
+			<uf_description />
+			<uf_full_description />
+			<uf_def />
+			<uf_file />
+		</item>
+	</items>
+</hiblock>
